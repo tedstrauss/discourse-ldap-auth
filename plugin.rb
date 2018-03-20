@@ -74,8 +74,8 @@ class LDAPAuthenticator < ::Auth::Authenticator
   end
 end
 
-auth_provider title: 'with LDAP',
-  message: 'Log in with your LDAP credentials',
+auth_provider title: 'Log in using your McGill email and password.',
+  message: 'Log in using your McGill email and password.',
   frame_width: 920,
   frame_height: 800,
   authenticator: LDAPAuthenticator.new
